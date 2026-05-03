@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="WEB DEV 101">
+        <title>WEB DEV 101</title>
+   </head>
+
+   <style>
+     .head{
+       color:rgb(0, 0, 0);
+       font-family: Arial, sans-serif;
+       border-left: 4px solid rgb(30, 156, 51);
+         padding-left: 20px;
+          }
+
+          h1,h6{
+            color:rgb(255, 255, 255);
+            margin: 10px;
+          }
+
+          nav a{
+            color:rgb(255, 225, 225); font-size: 12px;
+          }
+          
+          header{
+            background-color:rgb(30, 156, 51);
+            font-family: 'Times New Roman', serif;
+            font-size: 2rem;
+          }
+
+          .container{
+            display: flex;
+            gap: 20px;
+          }
+          
+          .container img{
+            width:200px;
+            height: 90px;
+          }
+
+            
+   </style>
+
+   <body style="border-color: rgb(30, 156, 51); border-width: 10px; border-style: solid;">
+        <header style="padding-bottom: 40px; text-align: center; font-size: 40px; font-weight: bolder;">
+    
+                <h1>WELCOME <br>TO <br>NIGERIA</h1>
+            <nav>
+                <a href="#about">ABOUT</a>
+                <a href="#skill">TRAVELS & TOURS</a>
+                <a href="#goals">CONTACT</a>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="skill" style="padding: 20px;">
+                <h2 class="head">TRAVELS.</h2>
+
+                <div class="container"">
+                    <img src="Image/image4.jpg" alt="nigeria" style="border-radius: 15px; margin-left: 0px;">
+                    <img src="Image/image5.jpg" alt="naija" style="border-radius: 15px;">
+                    <img src="Image/image6.jpg" alt="9ja" style="border-radius: 15px;">
+                </div>
+
+                </h5>Significant Places and Regions</h5>
+                <p>
+    <ol>
+        <li>Abuja: The Federal Capital Territory, located in the center of the country, known for landmarks like Aso Rock and the National Mosque.</li>
+        <li>Lagos: The former capital, economic heart, and largest city in Africa, known for its intense energy, nightlife, and bustling industries.</li>
+        <li>Kano: A major commercial hub in the north with a rich history centered on the Great Mosque and traditional dye pits.</li>
+        <li>Port Harcourt: A crucial city in the Niger Delta, central to Nigeria’s oil and gas industry.</li>
+        <li>Jos Plateau: Known for a cooler climate and diverse ethnic groups.</li>
+        <li>Obudu Plateau/Gashaka Gumti National Park: Located in the east, these feature high mountains and rainforests.</li>
+        <li>Benin City: Historic capital of the ancient Benin Empire, known for its bronze casting and walls.</li>
+    </ol>
+</p>
+
+
+            </section>
+
+
+                <section id="goals">
+                    <h2 class="head">TOURISM.</h2>
+                    <p>If you’re looking for a destination that doesn’t just show you sights but makes you feel alive, Nigeria is calling your name. This isn't a "sit back and watch" kind of holiday—it’s an all-encompassing, high-energy, soul-stirring adventure.
+Here is why Nigeria should be your next great escape:</p>
+                     <h5>LANDSCAPES</h5>
+                     <ul>
+                        <li>Obudu Mountain Resort: Ride a cable car through the clouds into a temperate mountain paradise that feels more like the Swiss Alps than West Africa.</li>
+                        <li>Yankari Game Reserve: After a morning safari spotting elephants, you can dive into the Wikki Warm Springs—crystal-clear, turquoise water that stays a perfect 31°C year-round.</li>
+                        <li>The Waterfalls: Hike the seven levels of Erin Ijesha. Each level reveals a new, more stunning view than the last.</li>
+                     </ul>  
+                     
+                        <h5>NIGERIAN CUISINE</h5>
+                        <h7>The Southwest (Yoruba)</h7>
+                        <ul>
+                            <li>Amala & Ewedu: A dark yam-flour swallow served with a green jute-leaf soup and a spicy tomato-based stew (Gbegiri).</li>
+                            <li>Efo Riro: A savory "rich" vegetable soup prepared with spinach, palm oil, and various proteins like cow skin (Ponmo).</li>
+                            <li>Ewa Agoyin: Overcooked beans served with a signature dark, caramelized pepper sauce.</li>
+                        </ul>
+                        <h7>The Southeast & South-South (Igbo, Efik, Ibibio) </h7>
+                        <ul>
+                            <li>Afang & Edikang Ikong: These are nutrient-dense vegetable powerhouses. Afang is made from wild spinach, while Edikang Ikong uses fluted pumpkin leaves.</li>
+                            <li>Banga Soup: A creamy palm nut-based soup originating from the Niger Delta, often served with a yellow starch swallow.</li>
+                            <li>Nkwobi: A spicy cow-foot delicacy served as an appetizer, usually enjoyed in local pubs.</li>
+                        </ul>
+                        <h7>The North (Hausa-Fulani)</h7>
+                        <ul>
+                            <li>Tuwo Shinkafa: A soft, mashed rice swallow that is a staple in northern homes.</li>
+                            <li>Miyan Kuka: A unique green soup made from powdered baobab leaves, known for its tangy flavor.</li>
+                            <li>Kilishi: The Nigerian version of beef jerky—thin slices of spiced, dried meat that are briefly grilled.</li>
+                        </ul>
+
+                </section>
+
+            <section id="about">
+                <h2 class="head">ABOUT [ THE NIGERIAN CULTURE AND HISTORY].</h2>
+                <img src="Image/image1.jpg" alt="tech guy" style="border-radius: 15px;">
+                <p>Nigeria, located in West Africa, is the most populous country on the continent with over 236 million people and more than 250 ethnic groups. Often called the "Giant of Africa," it is a diverse nation featuring a mix of rapid urbanization in cities like Lagos and Abuja, alongside traditional rural settlements.</p> 
+
+<h5>Key Ethnic Groups and Peoples</h5>
+
+<p>Hausa-Fulani (North): Predominantly Muslim, they are the largest group, known for their historical emirates, trading, and agriculture.
+Yoruba (Southwest): Known for their ancient kingdoms (e.g., Oyo, Ife) and high levels of urbanization, with a mix of Christian, Muslim, and traditional beliefs.
+Igbo (Southeast): Historically organized in decentralized, autonomous village units, they are predominantly Christian and known for entrepreneurship.
+Other Significant Groups: The Kanuri (northeast), Tiv (North Central), Ibibio, Efik, and Ijaw (south-south) are major ethnic groups contributing to the nation's 500+ languages.</p> 
+
+
+<h5>Culture and Lifestyle</h5>
+    <p>
+        <ul>
+            <li>Languages: While English is the official language, Hausa, Yoruba, and Igbo are widely spoken, along with Nigerian Pidgin, which acts as a lingua franca in many southern and central cities.</li>
+            <li>Religion: The population is roughly divided between Muslims (mainly in the north) and Christians (mainly in the south), with traditional religions also practiced.</li>
+            <li>Arts & Entertainment: Nigeria is a global cultural hub, home to Nollywood (the film industry) and Afrobeat music.</li>
+            <li>Cuisine: Diverse culinary traditions, including staples like Jollof rice, pounded yam, egusi soup, and suya.</li>
+        </ul>
+    </p>
+</section>
+        </main>
+
+
+        <footer style="background-color: rgb(30, 156, 51); color: #fff; border: 1px solid #fff; padding: 10px; text-align: center;">
+            <p>&copy; 2026 Web Development 101. All rights reserved.<br>Contact: peace@webdev101.com <br> Made by Peace</p>
+        </footer>
+   </body>
+</html>

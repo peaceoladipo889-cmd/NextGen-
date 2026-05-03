@@ -1,0 +1,148 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+         "logo head head"
+         "hero hero hero"
+         "story_1 load story-2"
+         "main main main"
+         "footer footer footer";
+         gap: 2px;
+         max-width: 1120px;
+            margin: 0 auto;
+            background: url(https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww) no-repeat center center/cover;
+
+}      
+
+.head {
+    background: #ff6600;
+    height: 150px;
+}
+
+.head nav a {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 35px;
+    font-size: 20px
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-left: -200px;
+    margin-top: -150px;
+    width: 200px;
+    height: 200px;
+}
+
+.story{
+    background-color: rgb(31, 24, 24);
+    padding: 24px;
+}
+
+.story-1 {
+    grid-area: story-1;
+}
+
+.story-2 {
+    grid-area: story-2;
+}
+
+.load{
+    grid-area: load;
+}
+
+.main {
+    grid-area: main;
+}
+
+.head {
+    grid-area: head;
+}
+
+.hero-content {
+    grid-area: hero;
+}
+
+.logo{ 
+    grid-area: logo;
+}
+
+.hero {
+    height: 100vh;
+display: flex;
+flex-direction: row;
+color: white;
+}
+
+.hero-content {
+padding: 20px;
+border-radius: 10px;
+}
+
+.hero h1 {
+font-size: 3em;
+margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.load {
+    width: 25px;
+    height: 25px;
+    border: 3px solid #b92525;
+    margin-bottom: 0px;
+    box-shadow: 0 0 8px #b92525, 0 0 8px #b92525 inset;
+
+    animation: load 1s linear infinite;
+}
+
+@keyframes load {
+    0% { border: 3px solid #b92525;
+         transform: rotatex(0deg) rotateY(0deg) rotateZ(0deg);
+
+    }
+    33% { border: 7px solid #e4e012;
+         transform:  rotatex(180deg) rotateY(0deg) rotateZ(0deg);
+
+    }
+    67% { border: 10px solid #110de4;
+         transform:  rotatex(180deg) rotateY(180deg) rotateZ(0deg);
+
+    }
+    100% { border: 4px solid #06f155;
+            transform:  rotatex(180deg) rotateY(180deg) rotateZ(180deg);
+
+    }
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background: #ff6600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    text-shadow: 0 0 5px #0a0101;
+
+ transition: all 1s ease;
+}
+
+.btn:hover {
+    background: #b92525;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}

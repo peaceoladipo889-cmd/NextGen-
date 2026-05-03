@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Testing</title>
+    <link rel="stylesheet" href="testing.css">
+</head>
+
+<body class="body">
+
+    <header class="head">
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </nav>
+
+        <img src="dove.png" alt="Logo" class="logo">
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>THE GREAT CITY OF IFE</h1>
+            <p>The Source Of The Yoruba Land</p>
+        </div>
+    </section>
+
+    <div class="load"></div>
+
+     <article class="main">
+    <p >
+        Ife is a city in southwestern Nigeria, known for its
+                 rich cultural heritage and historical significance as
+                the birthplace of the Yoruba people.Ile-Ife is the
+               spiritual heart and ancestral "cradle" of the Yoruba people,
+                revered in mythology as the site where the deity Oduduwa
+                 descended from heaven to create dry land.
+             Located in present-day Osun State, Nigeria, this ancient city
+              is governed by the Ooni, who serves as the supreme traditional
+               ruler and custodian of the culture's 401 deities.
+              Historically, Ife reached a cultural peak between the 12th
+               and 14th centuries, producing world-famous, ultra-realistic terracotta
+                and bronze sculptures that demonstrate sophisticated metallurgical mastery.
+               Today, the city seamlessly blends this sacred heritage—represented by landmarks
+                like the 18-foot Opa Oranmiyan obelisk and the Ooni’s Palace—with modern intellectualism
+                 as home to the sprawling and architecturally stunning Obafemi Awolowo University
+    </p>
+
+    <article class="story story-1">
+        <h2>POPULATION</h2>
+        <p> ILE-IFE is an urban area in Nigeria, Osun-state
+                 with an estimated population of 200,000 as of the latest census...
+                <a href="#" class="btn">READ MORE</a> 
+        </p>
+    </article>
+
+    <article class="story story-2">
+        <h2>TOURISM</h2>
+        <p>Ile-Ife is a city in Nigeria
+                   that is rich in cultural heritage and historical
+                    significance, making it a popular destination for tourists
+                     interested in exploring the roots of the Yoruba people.
+       </p>
+    </article>
+
+    <footer>
+        <p>&copy; 2026 Ife Tourism. All rights reserved.</p>
+    </footer>
+</body>
+</html>

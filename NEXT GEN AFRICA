@@ -1,0 +1,49 @@
+   <!DOCTYPE html>
+<html lang="en">
+
+ <head>
+    <meta charset="UTF-8">
+    <meta name="peace">
+   <title>WEB DEV 101</title>
+    </head>
+
+    <body> 
+          <header>
+                 <h1>WEB DEVELOPMENT 101 </h1>
+         </header>
+
+    <h2>ABOUT ME </h2>
+    <p>My name is oladipo Peace <br> Born 14th of March, i'm 17 years old
+    <br> I am a student of Obafemi Awolowo University
+    <br>i'm studying computer engineering
+    <br>i'm learning web development at Next Gen Africa</p>
+
+   <h3>MY GOALS </h3>
+   <p>My goal is to become a full stack web developer <br> I want to be able to create amazing websites and applications <br> I also want to learn more about programming languages <br>I also want to be able to make a living with my web development skills</p>
+
+<img src="image-1.jpg" alt="image">
+
+
+<h4>SOME OTHER THINGS BOUT ME</h4>
+
+<ul>
+   <li>Favourite colour; Black</li>
+   <li>Hobby; Drawing & music</li>
+   <li>Social life; 3/10</li>G
+   <li>Character; Chill & Easygoing</li>
+</ul>
+
+<h5>TYPE OF TAGS</h5>
+<ol>
+   <li>Structure Tag</li>
+   <li>Text Tag</li>
+   <li>Media Tag</li>
+   <li>Form Tag</li>
+   <li>Container Tag</li>
+</ol>
+
+
+
+    </body>
+ 
+</html>            
