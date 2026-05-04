@@ -4,32 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Testing</title>
-    <link rel="stylesheet" href="testing.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="body">
+<body class="text-white grid grid-cols-3 gap-0.5 max-w-7xl mx-auto bg-cover bg-center bg-no-repeat" style="background-image: url(https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2slMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww); grid-template-areas: 'logo head head' 'hero hero hero' 'story_1 load story-2' 'main main main' 'footer footer footer';">
 
-    <header class="head">
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Contact</a>
+    <header class="bg-orange-500 h-36 grid-area-[head]">
+        <nav class="flex justify-end">
+          <a href="#" class="text-white leading-9 text-xl">Home</a>
+          <a href="#" class="text-white leading-9 text-xl">About</a>
+          <a href="#" class="text-white leading-9 text-xl">Services</a>
+          <a href="#" class="text-white leading-9 text-xl">Contact</a>
         </nav>
 
-        <img src="dove.png" alt="Logo" class="logo">
+        <img src="dove.png" alt="Logo" class="grid-area-[logo] flex justify-start mb-2.5 -ml-50 -mt-36 w-50 h-50">
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>THE GREAT CITY OF IFE</h1>
-            <p>The Source Of The Yoruba Land</p>
+    <section class="hero grid-area-[hero] h-screen flex flex-row text-white">
+        <div class="hero-content grid-area-[hero] p-5 rounded-lg">
+            <h1 class="text-6xl mb-5">THE GREAT CITY OF IFE</h1>
+            <p class="text-xl mb-5">The Source Of The Yoruba Land</p>
         </div>
     </section>
 
-    <div class="load"></div>
+    <div class="load grid-area-[load]"></div>
 
-     <article class="main">
+     <article class="main grid-area-[main]">
     <p >
         Ife is a city in southwestern Nigeria, known for its
                  rich cultural heritage and historical significance as

@@ -4,64 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Peace portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Website portfolio</title>
 </head>
 
-<body>
-    <header>
+<body class="bg-gray-900 text-base text-white">
+    <header class="bg-gray-900  text-xs flex justify-center items-center space-x-2 p-2">
         <nav>
-            <a href="#about">ABOUT</a>
-            <a href="#skills">SKILLS</a>
-            <a href="#projects">PROJECTS</a>
-            <a href="#contact">CONTACT</a>
+            <a class="text-gray-600 hover:text-blue-500" href="#about">ABOUT</a>
+            <a class="text-gray-600 hover:text-blue-500" href="#skills">SKILLS</a>
+            <a class="text-gray-600 hover:text-blue-500" href="#projects">PROJECTS</a>
+            <a class="text-gray-600 hover:text-blue-500" href="#contact">CONTACT</a>
         </nav>
     </header>
 
-    <section>
-        <h1>PEACE'S OFFICIAL PORTFOLIO</h1>
-        <p>i'm passionate about crafting experiences that are engaging, accessible and user-centric</p>
-    </section>
-
-    <section id="about">
-        <h2>ABOUT ME</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+     <section class="col-span-3 flex justify-center items-center min-h-[50vh] bg-gradient-to-r from-blue-900 via-purple-900 to-pink-500 text-center p-8">
         <div>
-            <div>Name: Oladipo Peace</div>
-            <div>Occupation: Freelancer</div>
-            <div>Hobbies: drawing, gaming & coding</div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">PEACE'S OFFICIAL PORTFOLIO</h1>
+            <p class="text-lg md:text-xl">i'm passionate about crafting experiences that are engaging, accessible and user-centric</p>
         </div>
-    </section>
+     </section>
 
-    <section id="skills">
-        <h2>MY SKILLS</h2>
+     <section id="about" class="col-span-2 bg-gray-800 border border-gray-700 p-6 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-semibold mb-4 px-4 text-blue-500">ABOUT ME</h2>
+        <div>
+            <div class="bg-gray-600 mb-6 p-2 rounded-lg shadow-lg">Name: Oladipo Peace</div>
+            <div class="bg-gray-600 mb-6 p-2 rounded-lg shadow-lg">Occupation: Freelancer</div>
+            <div class="bg-gray-600 mb-6 p-2 rounded-lg shadow-lg">Hobbies: drawing, gaming & coding</div>
+        </div>
+     </section>
+
+     <section id="skills" class="col-span-1 bg-gray-800 border border-gray-700 p-6 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-semibold mb-4 px-4 text-blue-500">MY SKILLS</h2>
         <div>
            <ol>
-               <li>HTML5</li>
-               <li>CSS3</li>
-               <li>FLEXBOX</li>
-               <li>FRONTEND</li>
+               <li  class="bg-gray-600 mb-3 p-2 rounded-lg shadow-lg">HTML5</li>
+               <li class="bg-gray-600 mb-3 p-2 rounded-lg shadow-lg">CSS3</li>
+               <li class="bg-gray-600 mb-3 p-2 rounded-lg shadow-lg">FLEXBOX</li>
+               <li class="bg-gray-600 mb-3 p-2 rounded-lg shadow-lg">FRONTEND</li>
            </ol>       
         </div>
-    </section>
+     </section>
 
-    <section id="projects">
-        <h2>MY PROJECTS</h2>
-        <div>
-            <p>
-                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-                xx.. <a href="https://github.com/peaceoladipo889-cmd/week-1">Check it Out</a>
-            </p>
+     <section id="projects" class="col-span-3 bg-gray-800 border border-gray-700 p-6 rounded-lg shadow-lg">
+        <h2 class="text-2xl font-semibold mb-4 px-4 text-blue-500">MY PROJECTS</h2>
+        <div class="space-y-4">
+            <div class="bg-gray-700 p-4 rounded">
+                <h3 class="text-lg font-medium mb-2">FRONTEND DEVELOPMENT</h3>
+                <p class="mb-3">A responsive website built with HTML, CSS, and JavaScript.</p>
+                <a href="https://github.com/peaceoladipo889-cmd/week-1" class="inline-block w-full md:w-auto bg-blue-600 hover:bg-gradient-to-r from-blue-500 to-purple-500 text-white px-4 py-2 rounded-lg">Check it Out</a>
+            </div>
         </div>
-    </section>
+     </section>
 
-    <section id="contact">
-        <h2>CONTACT ME</h2>
-        <ul>
-          <li><a href="https://wa.me/+2349152480009">Whatsapp</a></li>
+     <section id="contact" class="col-span-3 bg-gray-800 border border-gray-700 p-6 rounded-lg shadow-lg mb-4">
+        <h2 class="text-2xl font-semibold mb-4 px-4 text-green-400">CONTACT ME</h2>
+        <ul class="space-y-2">
+          <li class="bg-gray-600 mb-3 p-2 rounded-lg shadow-lg"><a href="https://wa.me/+2349152480009" class="flex items-center space-x-2 text-blue-500 hover:text-green-500">
+              <span>📱</span><span>Whatsapp</span>
+            </a></li>
+          <li class="bg-gray-600 mb-3 p-2 rounded-lg shadow-lg"><a href="mailto:peaceoladipo889@gmail.com" class="flex items-center space-x-2 text-blue-500 hover:text-green-500">
+              <span>✉️</span><span>Email</span>
+            </a></li>
         </ul>
-    </section>
+     </section>
+  </div>
 
-    <footer>
-        <p>
+    <footer class="bg-gradient-to-r from-blue-900 via-purple-900 to-pink-500 text-white p-4">
+        <p class="text-center">
           &copy; 2026 Peace's Portfolio. All rights reserved. <br>
               3rd-May-2026 <br>
           Contact: peace@webdev101.com
